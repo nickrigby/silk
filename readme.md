@@ -55,6 +55,10 @@ $silc-core--breakpoints: (
     ('xl', '(min-width:1400px)')
 );
 ```
+Single variables (non arrays) should be entered in the following format:
+```scss
+$silc-offcanvas--options--becomes-visible: 0;
+```
 
 ## Extending classes
 Some silc modules contain JavaScript classes that can be easily extended for your own needs. To extend a class, you need to import the class and then remove the call to the original module init function e.g. `silcOffcanvasInit`
